@@ -19,7 +19,7 @@ void main(){
 		
 		int up=0,down=0;
 		for(int j=0;j<input2;j++){
-			if(j==(input2+1))break;
+			if(j+1==input2)break;
 			if(array[j]<array[j+1]) up++;
 			else if(array[j]>array[j+1])down++;
 		}
